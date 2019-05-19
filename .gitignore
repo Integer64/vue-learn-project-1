@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+# User-specific stuff
+.idea/*
+
+
+# Dependency directories
+node_modules/

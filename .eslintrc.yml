@@ -1,0 +1,26 @@
+root: true
+env:
+  node: true
+parser: babel-eslint
+extends:
+  - airbnb-base
+  - prettier
+globals:
+  jQuery: true
+  $: true
+  window: true
+  document: true
+  Vue: true
+  axios: true
+  THREE: true
+rules:
+  quotes:
+    - error
+    - single
+  no-param-reassign:
+    - 2
+    - props: false
+  strict: 0
+settings:
+  import/resolver: webpack
+
